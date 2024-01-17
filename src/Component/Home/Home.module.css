@@ -21,7 +21,7 @@
   animation: carimg 1s ease-in-out;
   @media (width < 780px) {
     top: 100px;
-    width: 400px;
+    width: 300px;
   }
 }
 @keyframes carimg {
