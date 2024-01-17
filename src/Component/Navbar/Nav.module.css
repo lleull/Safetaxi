@@ -9,6 +9,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media  (width  < 780px) {
+        margin-top: 20px;
+        
+    }
 }
 .title{
     flex-direction: column;
@@ -38,19 +43,134 @@
     align-items: center;
      gap: 10px;
      text-decoration: none;
+
+     @media (width < 780px) {
+        display: none;
+        
+     }
      
+}
+.totext{
+    list-style: none;
+    color: rgb(238, 238, 238);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0 10px;
+    background: transparent;
+}
+.totext:hover{
+    border-radius: 20px;
+    background: var(--cu-yellow);
+    color: rgb(255, 255, 255);
 }
 .list{
     list-style: none;
-    color: white;
+    color: rgb(238, 238, 238);
     text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 500;
     padding: 0 10px;
     background: transparent;
 }
 .list:hover{
     border-radius: 20px;
-    background: rgb(244, 248, 7);
-    color: black;
+    background: var(--cu-yellow);
+    color: rgb(255, 255, 255);
 }
+.toggle {
+    width: 100%;
+    position: fixed;
+   background: rgb(44, 58, 15);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: 1s animate ease-in-out;
+    z-index: 100;
+  }
+  @keyframes animate {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .toggles {
+    width: 100%;
+    position: fixed;
+    background: rgba(43, 56, 85, 0.973);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: 1s animates ease-in-out;
+    z-index: 100;
+  }
+  @keyframes animates {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+  }
+  .menuimg {
+    width: 50%;
+    height: 30px;
+    background: white;
+  }
+  .toggletext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .log {
+    width: 90%;
+    background: transparent;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .totext {
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    padding: 10px 10px;
+  }
+  .menulogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+  }
+  .mobilemenu {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .hamburger {
+    width: 40px;
+    height: 40px;
+    display: none;
+    @media (width <780px) {
+      display: flex;
+    }
+  }

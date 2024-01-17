@@ -25,9 +25,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (width < 780px) {
+        flex-direction: column;
+         
+      }
 }
 .abt{
     width: 40%;
+    @media (width < 780px) {
+       width: 80%;
+         
+      }
 }
 .downtext{
     font-size: 20px;

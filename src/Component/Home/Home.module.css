@@ -19,6 +19,10 @@
 .img {
   position: relative;
   animation: carimg 1s ease-in-out;
+  @media (width < 780px) {
+    top: 100px;
+    width: 400px;
+  }
 }
 @keyframes carimg {
   0% {
@@ -36,16 +40,26 @@
   color: var(--cu-yellow);
   margin: 0;
   animation: carimg 1s ease-in-out;
+  @media (width < 780px) {
+    font-size: 20px;
+  }
 }
 .num {
   color: white;
   margin: 0;
   font-size: 35px;
   animation: carimg 1s ease-in-out;
+  @media (width < 780px) {
+    font-size: 27px;
+  }
 }
 .webtext {
   color: white;
   margin: 0;
   font-size: 30px;
   letter-spacing: 10px;
+  @media (width < 780px) {
+    letter-spacing: 5px;
+    font-size: 23px;
+  }
 }

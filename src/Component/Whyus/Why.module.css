@@ -26,14 +26,27 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (width < 780px) {
+   flex-direction: column;
+     
+  }
 }
 .cards {
   width: 40%;
+  @media (width < 780px) {
+    width: 80%;
+     
+  }
 }
 .texts {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  @media (width < 780px) {
+    text-align: center;
+    gap: 5px;
+     
+  }
 }
 
 .title {
@@ -44,12 +57,21 @@
   font-size: 17px;
   text-transform: uppercase;
   font-weight: 700;
+  @media (width < 780px) {
+    text-align: center;
+    margin-top: 10px;
+     
+}
 }
 .paras {
   color: white;
   font-size: 11px;
   text-align: left;
   width: 80%;
+  @media (width < 780px) {
+    text-align: center;
+     width: 100%;
+}
 }
 .read {
   padding: 10px 30px;

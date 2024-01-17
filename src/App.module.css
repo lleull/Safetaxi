@@ -14,6 +14,11 @@
   align-items: center;
   height: 80vh;
   justify-content: center;
+
+  @media (width < 780px) {
+   height: 140vh;
+    
+ }
 }
 .fourth {
   display: flex;
@@ -22,6 +27,10 @@
   background-size: cover;
   height: 80vh;
   justify-content: center;
+  @media (width < 780px) {
+    height: 140vh;
+     
+  }
 }
 .fourthblack {
   position: absolute;
@@ -29,6 +38,10 @@
   height: 80%;
   background: rgba(0, 0, 0, 0.527);
   z-index: 1;
+  @media (width < 780px) {
+   height: 135%;
+   background: rgba(0, 0, 0, 0.911);
+  }
 }
 .fourthblacks {
   position: absolute;
@@ -36,6 +49,10 @@
   height: 70%;
   background: rgba(0, 0, 0, 0.747);
   z-index: 1;
+  @media (width < 780px) {
+  height: 105%;
+     
+  }
 }
 
 .fifth {
@@ -43,6 +60,10 @@
   align-items: center;
   height: 70vh;
   justify-content: center;
+  @media (width < 780px) {
+    height: 100vh;
+     
+  }
 }
 .six {
   display: flex;
@@ -51,6 +72,10 @@
   justify-content: center;
   background-image: url("./Component/Clients/360_F_597824150_mur6CKGmAY3BhNJnnb1R6VNcO0YQDA0C.jpg");
   background-size: contain;
+  @media (width < 780px) {
+    height: 100vh;
+     
+  }
 }
 .seven {
   display: flex;
@@ -62,18 +87,27 @@
 .fourthblackss {
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 60%;
   background: rgba(0, 0, 0, 0.795);
   z-index: 1;
+  @media (width < 780px) {
+    height: 150%;
+     
+  }
 
 }
 .eight {
   display: flex;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
   
   background-image: url('./Component/About/Moure\'s_Taxi_Barcelona_c1.jpg');
   background-size: contain;
   justify-content: center;
   background-position: 100% 100%;
+  @media (width < 780px) {
+   height: 150vh;
+   background-size: cover;
+     
+  }
 }

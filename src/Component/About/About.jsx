@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "./About.module.css";
+import phone from "./icons8-phone-50.png"
+import location from "./icons8-location-50 (1).png"
+import adnroid from "./icons8-android-50 (1).png"
+import apple from "./icons8-apple-50.png"
+import email from "./icons8-email-50.png"
 const About = () => {
+  
   return (
     <div className={styles.section}>
       <div className={styles.wrapper}>
@@ -19,8 +25,8 @@ const About = () => {
             <h1 className={styles.head}>Download</h1>
             <p className={styles.par}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div className={styles.phone}>
-              <h1 className={styles.phonetext}>Android</h1>
-              <h1 className={styles.phonetext}>IOS</h1>
+              <h1 className={styles.phonetext}>Android <img className={styles.icon} src={adnroid} alt="s"/></h1>
+              <h1 className={styles.phonetext}>IOS  <img className={styles.icon} src={apple} alt="s"/></h1>
             </div>
           </div>
           <div className={styles.card}>
@@ -28,17 +34,20 @@ const About = () => {
 
             <div className={styles.phone}>
               <span className={styles.abt}>
-                <img className={styles.img} src="a" alt="a" />
+                <img  className={styles.icons} src={phone} alt="a" />
+                <span className={styles.itext}>+(251)986 662 12</span>
               </span>
               <span className={styles.abt}>
-                <img className={styles.img} src="a" alt="a" />
+                <img  className={styles.icons} src={email} alt="a" />
+                <span className={styles.itext}>safetaxi@gmail.com</span>
+
               </span>
               <span className={styles.abt}>
-                <img className={styles.img} src="a" alt="a" />
+                <img  className={styles.icons} src={location} alt="a" />
+                <span className={styles.itext}>Ethiopia,Addisabeba , 12th street Bole road</span>
+
               </span>
-              <span className={styles.abt}>
-                <img className={styles.img} src="a" alt="a" />
-              </span>
+             
             </div>
           </div>
         </div>
