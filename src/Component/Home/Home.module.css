@@ -1,0 +1,51 @@
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  animation: carimg 1s ease-in-out;
+}
+.image {
+  position: relative;
+}
+
+.img {
+  position: relative;
+  animation: carimg 1s ease-in-out;
+}
+@keyframes carimg {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bookcab {
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--cu-yellow);
+  margin: 0;
+  animation: carimg 1s ease-in-out;
+}
+.num {
+  color: white;
+  margin: 0;
+  font-size: 35px;
+  animation: carimg 1s ease-in-out;
+}
+.webtext {
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 10px;
+}

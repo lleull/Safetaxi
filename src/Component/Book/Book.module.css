@@ -1,0 +1,101 @@
+.section {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  height: 80%;
+  justify-content: space-between;
+}
+.divtext {
+  width: 40%;
+}
+.text {
+  font-size: 25px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.texts {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0;
+}
+.paras {
+  font-size: 12px;
+  color: rgb(36, 34, 34);
+}
+.read {
+  width: 50%;
+  text-align: center;
+  color: white;
+  background: black;
+  padding: 10px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+}
+.wrap {
+  width: 40%;
+}
+.table {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.catext {
+  width: 55%;
+  padding: 10px;
+  background: black;
+  color: white;
+  margin-bottom: -2px;
+  font-weight: 800;
+  font-size: 24px;
+}
+.cab {
+  color: var(--cu-yellow);
+  font-size: 24px;
+  font-weight: 800;
+}
+.table {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.forms {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.one {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+input {
+  background: transparent;
+  border: none;
+  width: 40%;
+  border-bottom: 1px solid black;
+}
+::placeholder {
+  color: black;
+}
+.choose {
+  width: 80%;
+  padding: 10px;
+}
+.btn {
+  width: 80%;
+  padding: 4px;
+  background: black;
+  text-align: center;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

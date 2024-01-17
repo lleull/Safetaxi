@@ -1,0 +1,79 @@
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.first {
+  width: 100%;
+  height: 70vh;
+  background: black;
+}
+.second {
+  display: flex;
+  background: var(--cu-yellow);
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+}
+.fourth {
+  display: flex;
+  align-items: center;
+  background-image: url("./Component//Whyus/677108-New-York-City-taxi-Times-Square-mode-of-transportation.jpg");
+  background-size: cover;
+  height: 80vh;
+  justify-content: center;
+}
+.fourthblack {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.527);
+  z-index: 1;
+}
+.fourthblacks {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background: rgba(0, 0, 0, 0.747);
+  z-index: 1;
+}
+
+.fifth {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+}
+.six {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+  background-image: url("./Component/Clients/360_F_597824150_mur6CKGmAY3BhNJnnb1R6VNcO0YQDA0C.jpg");
+  background-size: contain;
+}
+.seven {
+  display: flex;
+  align-items: center;
+  height: 30vh;
+  background: var(--cu-yellow);
+  justify-content: center;
+}
+.fourthblackss {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.795);
+  z-index: 1;
+
+}
+.eight {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  
+  background-image: url('./Component/About/Moure\'s_Taxi_Barcelona_c1.jpg');
+  background-size: contain;
+  justify-content: center;
+  background-position: 100% 100%;
+}
