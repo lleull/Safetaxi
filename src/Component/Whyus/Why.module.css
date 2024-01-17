@@ -82,4 +82,9 @@
   border-radius: 20px;
   font-size: 20px;
   background: var(--cu-yellow);
+
+  @media  (width  < 780px) {
+    margin-top: 70px;
+    
+  }
 }
