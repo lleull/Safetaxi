@@ -6,6 +6,10 @@
   flex-direction: column;
   z-index: 100;
   justify-content: center;
+
+  @media (width < 780px) {
+    width: 85%;
+  }
 }
 .text {
   color: var(--cu-yellow);
@@ -24,9 +28,8 @@
   align-items: center;
   justify-content: space-between;
   @media (width < 780px) {
-  flex-direction: column;
-  gap: 20px;
-     
+    flex-direction: column;
+    gap: 20px;
   }
 }
 .img {
@@ -45,8 +48,7 @@
   flex-direction: column;
   justify-content: space-between;
   @media (width < 780px) {
-    width: 90%;
-     
+    width: 100%;
   }
 }
 .card2 {
@@ -59,8 +61,7 @@
   padding: 20px;
   justify-content: space-between;
   @media (width < 780px) {
-    width: 90%;
-     
+    width: 100%;
   }
 }
 .head {

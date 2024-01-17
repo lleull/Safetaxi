@@ -52,12 +52,22 @@
     color: white;
     padding: 30px 0;
     border-bottom: 9px solid var(--cu-yellow);
+    @media (width < 780px) {
+        width: 100%;
+        
+        
+    }
 }
 .par{
     font-size: 11px;
     width: 70%;
     text-align: left;
     color: white;
+    @media (width < 780px) {
+        width: 90%;
+        
+        
+    }
     
 }
 .phonetext{
