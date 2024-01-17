@@ -61,7 +61,7 @@
   background-image: url("./Component/Clients/360_F_597824150_mur6CKGmAY3BhNJnnb1R6VNcO0YQDA0C.jpg");
   background-size: contain;
   @media (width < 780px) {
-    height: 100vh;
+    height: 130vh;
      
   }
 }
