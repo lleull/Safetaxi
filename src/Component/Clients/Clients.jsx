@@ -9,7 +9,7 @@ const Clients = () => {
       <h1 className={styles.texts}>TESTIMONIALS</h1>
 
       <div className={styles.wrapper}>
-        <div className={styles.card1}>
+        <div className={styles.card2}>
           <h4 className={styles.head}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
             cupiditate nostrum. In corrupti nobis dolore. Dolore minima
